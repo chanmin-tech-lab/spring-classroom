@@ -9,6 +9,8 @@ public class GameRunner {
     // this.game = game;
     // }
 
+    // GameRunner 클래스는 GamingConsole 클래스 없이는 아무것도 할 수 없다.
+    // GamingConsole 클래스는 GamingRunner 클래스의 의존성이다.
     public GameRunner(GamingConsole game) {
         this.game = game;
     }
