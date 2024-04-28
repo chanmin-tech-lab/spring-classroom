@@ -16,6 +16,10 @@ public class App02HelloWorldSpring {
         System.out.println(context.getBean("name"));
         System.out.println(context.getBean("age"));
         System.out.println(context.getBean("person"));
-        System.out.println(context.getBean("address"));
+        System.out.println(context.getBean("person2MethodCall"));
+        System.out.println(context.getBean("person3Parameters"));
+        // Bean 이름이 아닌 클래스 유형으로 찾을 수도 있다.
+        // 다만 해당 클래스로 생성된 빈이 유일해야 한다.
+        // System.out.println(context.getBean(Address.class));
     }
 }
