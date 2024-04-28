@@ -3,7 +3,7 @@ package com.example.learnspringframework;
 import com.example.learnspringframework.game.GameRunner;
 import com.example.learnspringframework.game.PacmanGame;
 
-public class AppGamingBasic {
+public class App01GamingBasic {
     public static void main(String[] args) {
         // var marioGame = new MarioGame();
         // var game = new SuperContraGame();

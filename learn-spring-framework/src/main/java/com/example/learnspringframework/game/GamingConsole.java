@@ -1,5 +1,6 @@
 package com.example.learnspringframework.game;
 
+// 여러 클래스에서 공통으로 사용되는 것들을 인터페이스로 구현한다
 public interface GamingConsole {
     void up();
 
