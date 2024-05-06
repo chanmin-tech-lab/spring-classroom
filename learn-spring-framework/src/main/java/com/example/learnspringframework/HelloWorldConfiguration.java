@@ -42,7 +42,7 @@ public class HelloWorldConfiguration {
 
     @Bean
     // 함수의 파라미터가 그냥 파라미터가 아니라, "빈의 이름" 이다.
-    // 빈의 이름을 찾지 못하면 클래스 유형에 따라 선택한다.
+    // 빈의 이름을 찾지 못하면 클래스 유형에 따라 선택된다.
     Person person3Parameters(String name, int age, Address address2) {
         return new Person(name, age, address2);
     }
