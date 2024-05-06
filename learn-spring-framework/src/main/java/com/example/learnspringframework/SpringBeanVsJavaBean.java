@@ -2,6 +2,7 @@ package com.example.learnspringframework;
 
 import java.io.Serializable;
 
+// POJO = 우리가 만드는 대부분의 자바 클래스 및 스프링 빈
 class Pojo {
     private String text;
     private int number;
@@ -41,3 +42,7 @@ class JavaBean implements Serializable { // EJB (Enterprise Java Bean)
         this.number = number;
     }
 }
+
+// Spring Bean
+// = 스프링에서 관리하는 모든 자바 객체
+// = 엄밀히는 IoC 컨테이너에서 관리하는 모든 자바 객체
