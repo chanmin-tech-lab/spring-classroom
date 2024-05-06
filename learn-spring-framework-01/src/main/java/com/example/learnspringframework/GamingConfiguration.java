@@ -7,8 +7,7 @@ import com.example.learnspringframework.game.GameRunner;
 import com.example.learnspringframework.game.GamingConsole;
 import com.example.learnspringframework.game.PacmanGame;
 
-record Game() {
-}
+record Game(){}
 
 @Configuration
 public class GamingConfiguration {
@@ -19,6 +18,7 @@ public class GamingConfiguration {
         return game;
     }
 
+    // 빈을 스프링이 만들게 하려면 어떻게 해야 할까?
     @Bean
     public GameRunner gameRunner(GamingConsole game) {
         var runner = new GameRunner(game);

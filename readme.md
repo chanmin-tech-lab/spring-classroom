@@ -16,3 +16,7 @@ POJO와 Config를 인자로 받아 Ready System을 출력한다.
 
 - 스프링 컨테이너에는 Bean Factory 타입과 Application Context 타입이 있다.
 - 이 중 대부분은 Application Context 타입으로 생성한다.
+
+## 미세한 팁
+
+- [VSCode에서 프로젝트명 변경하기](https://stackoverflow.com/questions/59934783/how-do-you-change-the-spring-boot-dashboard-project-name-in-vs-code)
